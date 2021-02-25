@@ -1,0 +1,54 @@
+.recover-container {
+  width: 100%;
+  max-width: 520px;
+  height: 89vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.recover-container .content {
+  width: 100%;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 800px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.recover-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.recover-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.recover-container .content form input {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.recover-container .content form .input-group {
+  display: flex;
+  margin-bottom: 30px;
+}
+.recover-container .content form .input-group input + input {
+  margin-left: 8px;
+}
+
+.logo-image {
+  width: 200px;
+}
+
+.recover-container .content h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 0;
+  font-weight: bold;
+}
